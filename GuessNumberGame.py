@@ -5,6 +5,7 @@ a = 0
 b = 100
 print(f'Загадай число от {a} до {b}...')
 
+
 # Определим свою функцию, которая напечатает правила
 def print_rules():
     rules = '''Если я угадаю, напиши "=",
@@ -15,8 +16,10 @@ def print_rules():
     print(rules)
     print()
 
+
 # Даем время на подумать
 import time
+
 time.sleep(1)
 print('Загадал?')
 time.sleep(1)
@@ -55,6 +58,5 @@ while True:
         print('Не понял. На всякий случай напомню правила:')
         print_rules()
         steps -= 1
-
 
 print('Спасибо.')
