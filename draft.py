@@ -6,7 +6,7 @@ urls = ['https://google.com', 'https://yandex.ru',
 
 for url in urls:
     target = requests.get(url)
-    for i in range(500):
+    for i in range(200):
         # print(url, i, target.status_code)
         if target.status_code != 200:
             print(url, i, target.status_code)
