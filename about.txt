@@ -2,3 +2,12 @@ python3 -m venv passguess
 source passguess/bin/activate
 
 import requests
+import json
+from flask import Flask, request, Response
+
+
+how to use:
+0. source passguess/bin/activate
+1. python server.py
+2. time python bruteforce.py
+(3. time python popular_passwords.py)

@@ -1,6 +1,5 @@
 import requests
 
-
 alphabet = '0123456789abcdefghijklmnopqrstuvwxyz'
 # alphabet = '0123456789abcdef'
 base = len(alphabet)
