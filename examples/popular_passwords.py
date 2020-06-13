@@ -1,6 +1,6 @@
 import requests
 
-with open('10-million-password-list-top-1000000.txt') as f:
+with open('../10-million-password-list-top-1000000.txt') as f:
     content = f.read()
 
 passwords = content.split('\n')
