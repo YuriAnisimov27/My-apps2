@@ -47,7 +47,7 @@ def brute_force(state):
     while temp > 0:
         c = temp // base
         r = temp % base
-        password += alphabet[r]
+        password += alphabet[r] + password
         temp = c
 
     if len(password) < length:
@@ -62,4 +62,4 @@ def brute_force(state):
         i += 1
     next_state = i, length
 
-    return passwords[state], next_state
+    return password, next_state
